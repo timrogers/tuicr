@@ -399,3 +399,15 @@ cp -r /path/to/tuicr/skills/tuicr ~/.claude/skills/tuicr
 mkdir -p ~/.agents/skills
 cp -r /path/to/tuicr/skills/tuicr ~/.agents/skills/tuicr
 ```
+
+### Copilot CLI
+
+**Prerequisites:** Copilot CLI running inside tmux, tuicr installed.
+
+**Installation**:
+
+```bash
+# Copy the shared skill into Copilot CLI's local skills directory
+mkdir -p ~/.copilot/skills
+cp -r /path/to/tuicr/skills/tuicr ~/.copilot/skills/tuicr
+```
